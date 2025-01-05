@@ -1,0 +1,76 @@
+#ESC{
+    width: 5%;
+    margin-left: 3%;
+}
+body{
+    background: rgb(3,0,36);
+    background: linear-gradient(90deg, rgba(3,0,36,1) 0%, rgba(9,9,121,1) 85%, rgba(0,20,255,1) 100%);
+}
+header{
+    padding: 3%;
+    background-color: rgba(3,0,36,1);
+    display: flex;
+    justify-content: space-around;
+}
+#head{
+    margin-left: 5% ;
+    text-align: center;
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#ins{
+    list-style-type:none ;
+}
+#ins1:link, #ins1:visited {
+        background-color: yellow;
+        color: blue;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+#ins1:hover, #ins1:active {
+        background-color: red;
+}
+#head{
+    text-align: center;
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#head2{
+    text-align: center;
+    color: white;
+}
+#main h3{
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main{
+    color: white;
+}
+
+footer{
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgba(3,0,36,1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+footer a:link{
+    color:white;
+}
+
+footer a:visited{
+    color:white;
+}
+footer a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}

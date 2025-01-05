@@ -1,0 +1,101 @@
+#ESC{
+    width: 5%;
+    margin-left: 3%;
+}
+body{
+    background: rgb(3,0,36);
+    background: linear-gradient(90deg, rgba(3,0,36,1) 0%, rgba(9,9,121,1) 85%, rgba(0,20,255,1) 100%);
+}
+header{
+    padding: 3%;
+    background-color: rgba(3,0,36,1);
+    display: flex;
+    justify-content: space-around;
+}
+#head{
+    margin-left: 5% ;
+    text-align: center;
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#ins{
+    list-style-type:none ;
+}
+#ins1:link, #ins1:visited {
+        background-color: yellow;
+        color: blue;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+#ins1:hover, #ins1:active {
+        background-color: red;
+}
+#main{
+    float: left;
+    width: 40%;
+    color:white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#main h3{
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#demo{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+}
+footer{
+    background-color: rgba(3,0,36,1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+footer a:link{
+    color:white;
+}
+
+footer a:visited{
+    color:white;
+}
+footer a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    height: 70px;
+    width: 100%;
+    background-color:  rgb(4, 0, 51);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;    
+    border-top: 0px;
+}
+
+.buttons:link{
+    color: yellow;
+}
+
+.buttons:visited{
+    color: yellow;
+}
+.buttons:hover{
+    color: red;
+}
